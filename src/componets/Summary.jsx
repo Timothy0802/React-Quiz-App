@@ -65,8 +65,8 @@ export default function Summary({ userAnswers }) {
                 })}
 
             </ol>
-            
-            <button onClick={() => window.location.reload()}>다시하기</button>
+
+            <button id='reloadButton' onClick={() => window.location.reload()}>다시하기</button>
         </div>
     );
 }

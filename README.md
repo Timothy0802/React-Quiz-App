@@ -52,7 +52,7 @@ https://react-quiz-app10.vercel.app/
 ### 새롭게 배운 내용 3가지
 1. React 프로젝트에서는 하나의 javascript에 코드를 다 작성하지 않고 component로 나누어 작성함
 2. node_modules는 npm install을 하면서 생성할 수 있음
-3. 
+3. Vercel에 배포하면 로컬에서 실행을 중단해도 사용할 수 있음
 
 ### 어려웠던 점과 해결 방법
 처음 React 프로젝트를 접하는 것에 비해 component가 많고 이름도 비슷해서 코드를 어느 부분을 수정해야하는지 헷갈림

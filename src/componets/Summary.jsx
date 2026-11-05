@@ -3,6 +3,10 @@ import QUESTIONS from '../questions.js';
 
 export default function Summary({ userAnswers }) {
 
+    // const handleReload = () => {
+    //     window.location.reload();
+    // };
+
     const skippedAnswers =
         userAnswers.filter(answer => answer === null);
 
@@ -61,6 +65,8 @@ export default function Summary({ userAnswers }) {
                 })}
 
             </ol>
+            
+            <button onClick={() => window.location.reload()}>다시하기</button>
         </div>
     );
 }

@@ -24,19 +24,19 @@ export default function Summary({ userAnswers }) {
     return (
         <div id="summary">
             <img src={quizCompleteImg} alt="The logo for Quiz is over message" />
-            <h2>Quiz Completed!</h2>
+            <h2>당신의 점수는??</h2>
             <div id='summary-stats'>
                 <p>
                     <span className='number'>{skippedCount}%</span>
-                    <span className='text'>skipped</span>
+                    <span className='text'>스킵한 비율</span>
                 </p>
                 <p>
                     <span className='number'>{correctCount}%</span>
-                    <span className='text'>answered correctly</span>
+                    <span className='text'>맞춘 비율</span>
                 </p>
                 <p>
                     <span className='number'>{wrongCount}%</span>
-                    <span className='text'>answered incorrectly</span>
+                    <span className='text'>틀린 비율</span>
                 </p>
             </div>
             <ol>
